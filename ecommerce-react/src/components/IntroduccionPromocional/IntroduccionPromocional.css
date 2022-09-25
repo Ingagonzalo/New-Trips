@@ -1,0 +1,27 @@
+.promo{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.introPromo{
+    color: black;
+   
+}
+
+.tituloPromo{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+.subTituloPromo{
+    color:#CEA44D ;
+    margin: 0 0 50px 0;
+}
+
+.logoPromo{
+    width: 100px;
+    margin-bottom: 30px;
+}

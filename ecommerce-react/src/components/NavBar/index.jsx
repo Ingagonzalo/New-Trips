@@ -1,4 +1,4 @@
-import LogoWeb from '../../assets/images/logo.png'
+import LogoWeb from '../../assets/images/LogoTravel.png'
 import Counter from "../Counter/Counter";
 import {Link, NavLink} from "react-router-dom"
 
@@ -12,12 +12,12 @@ const NavBar = () => {
 
       <div className="nav_menu">
         {/*<NavLink to='/productos' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"} > Catálogo </NavLink> proximo menu desplegable*/}
-        <NavLink to='/home' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Inicio </NavLink>
-        <NavLink to='/blog' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Blog </NavLink>
-        <NavLink to='/productos/landing-guitarras' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Guitarras </NavLink>
-        <NavLink to='/productos/landing-bajos' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Bajos </NavLink>
+        <NavLink to='/home' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Home </NavLink>
+        <NavLink to='/hoteles' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Hoteles </NavLink>
+        <NavLink to='/productos/landing-guitarras' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Promociones </NavLink>
+        <NavLink to='/productos/landing-bajos' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Beneficios </NavLink>
         <NavLink to='/galeria' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}  >
-          Galería
+          Servicios
         </NavLink>
         <NavLink to='/contacto' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}>Contacto</NavLink>
 

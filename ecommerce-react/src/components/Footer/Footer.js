@@ -1,5 +1,5 @@
 import React from 'react'
-import LogoWeb from '../../assets/images/logo.png'
+import LogoWebClean from '../../assets/images/LogoTravelClean.png'
 
 const Footer = () => {
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
         </ul>
     </div>
     <div class="footer_bottom_logo">
-            <img to='/home' className='logoFooter' src={LogoWeb} alt="" />
+            <img to='/home' className='logoFooter' src={LogoWebClean} alt="" />
     </div>
     <div class="footer_bottom_copyright">
       <small>©2022 - MusicShop, Todos los Derechos Reservados</small>

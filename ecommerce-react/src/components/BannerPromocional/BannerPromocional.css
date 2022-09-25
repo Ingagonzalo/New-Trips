@@ -1,0 +1,26 @@
+.containerImgPromo{
+    width: 100%;
+
+    margin: 0 auto;
+}
+
+
+.paisajeBanner{
+    width: 100%;
+    height: 50rem;
+    object-fit: cover;
+    
+
+}
+
+.center {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 40%;
+    text-align: left;
+    color: rgb(224, 224, 224);
+  }

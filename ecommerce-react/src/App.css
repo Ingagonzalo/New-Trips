@@ -1,18 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('./components/ItemDetail/ItemDetail.css');
 @import url('./components/NavBar/navBar.css');
-@import url('./components/VideoPromocional/VideoPromocional.css');
+@import url('./components/BannerPromocional/BannerPromocional.css');
 @import url('./components/Footer/Footer.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');; /*Fuente Montserrat TITULOS */
+
 
 *{
   text-decoration: none;
-  color: white;
+
+  font-family: 'Montserrat', sans-serif;
+  
 }
 
+.container90{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container40{
+  width: 40%;
+  margin: 0 auto;
+}
 
 body{
-  background-color: rgb(12, 12, 12);
-  
+  background-color: rgb(238, 238, 238);
+  width: 100%;
   margin: 0 auto;
 }
 

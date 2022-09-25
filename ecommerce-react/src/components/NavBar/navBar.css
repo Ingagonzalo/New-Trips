@@ -2,12 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(80, 80, 80);
+    background-color: rgba(48, 48, 48, 0.645);
     padding: 0 5%;
     margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
-
-    
+    position: absolute;
+    width: 90%; /*poruqe tengo que poner 90% y no 100% para que se vea bien*/
+    height: 120px;
+    z-index: 100;
 }
 
 .nav_item{
@@ -25,20 +26,26 @@
     align-items: center;
 }
 
-.logo_navBar{
-    width: 500px;
-}
 
 .activa{
-    border-bottom: 2px solid white;
+    position: relative;
+}
+.activa::after{
+    content: "◆";
+position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 40%;
+    
 }
 
 .inactiva{
-    color: white;
+    color: rgb(188, 188, 188);
 }
 
 .logoNavBar{
-    width: 30px;
+    width: 100px;
+    margin: 10px;
 }
 
 .prueba{
