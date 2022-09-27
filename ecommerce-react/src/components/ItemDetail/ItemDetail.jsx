@@ -20,19 +20,27 @@ const ItemDetail = ({ dataDetail }) => { /*Exporto como se va a ver */
   }
 
   return (
+    
     <div className="itemDetail">
       <div>
         <img className="imageStockDetail" src={dataDetail.image} alt="Guitarra" />
       </div>
       <div className="cardDetail">
-        <h2 className="titleDetail">{dataDetail.title}</h2>
-        <h3 className="priceDetail">{dataDetail.price}</h3>
+        <p className='OfertaDetail'>Disfruta de la oferta hoy</p>
+        <h2 className="titleDetail">Descuento por reserva anticipada en {dataDetail.title}</h2>
         <p className="descriptionDetail">{dataDetail.description}</p>
+        <h3 className="priceDetail">Desde ARG${dataDetail.price} Imp incl</h3>
+
         <ItemCount nameProduct={dataDetail.title} stock={10} initial={1} onAdd={onAdd} />
         <p>Cantidad: {contador}</p>
-        <Link to={`/cart`} >
-          <button>Comprar</button>
-        </Link>
+        <div className='botonesDetail'>
+          <Link to={`/cart`} >
+            <button className="botonItemDetail">Quiero Reservar</button>
+          </Link>
+          <Link to={`/`} >
+            <button className="botonItemDetail btnBlanco">Ver más</button>
+          </Link>
+        </div>
       </div>
     </div>
 

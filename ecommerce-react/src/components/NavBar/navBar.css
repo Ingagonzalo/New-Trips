@@ -9,6 +9,7 @@
     width: 90%; /*poruqe tengo que poner 90% y no 100% para que se vea bien*/
     height: 120px;
     z-index: 100;
+    top: 0;
 }
 
 .nav_item{

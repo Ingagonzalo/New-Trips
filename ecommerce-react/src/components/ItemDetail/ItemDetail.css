@@ -1,10 +1,13 @@
 .titleDetail{
-    color: rgb(203, 203, 203);
+    color: rgb(18, 18, 18);
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .priceDetail{
-    color: rgb(203, 203, 203);
+    color: #A4750D;
+
+    bottom: 50px;
     font-size: 1.4rem;
 
 }
@@ -15,28 +18,64 @@
 }
 
 .itemDetail{
-    background-color:#101010;
     display: flex;
-    width: 60%;
-    margin: 0 auto;
-    margin-top: 50px;
+    width: 30%;
+    margin-left:20% ;
     text-align: left;
     padding:  30px;
+    margin-top: 300px;
+    background-color: #fff;
+    margin-bottom: 200px ;
+
 }
 
 .cardDetail{
-    width: 50%;
-    margin-left: 100px;
-    
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
 .imageStockDetail{
     object-fit: cover;
-    height: 500px;
-    width: 300px;
+    height: 700px;
+    width: 100%;
     object-position: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.OfertaDetail{
+    text-transform: uppercase;
+    color:#CEA44D;
+    font-weight: bold;
+    
+}
+
+.botonItemDetail{
+
+    left: 0;
+    bottom: 0;
+    padding: 20px 30px;
+    border: 2px solid black;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    width: 200px;
+}
+
+.botonesDetail{
+    display: flex;
+    
+}
+
+.btnBlanco{
+    background-color: #fff;
+    color: black;
 }

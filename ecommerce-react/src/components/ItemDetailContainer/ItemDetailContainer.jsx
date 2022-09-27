@@ -1,8 +1,8 @@
 import React, {useEffect, useState}from 'react'
 import { useParams } from 'react-router-dom';
 import ItemDetail from '../ItemDetail/ItemDetail'
-import dataList from '../baseDatos/data';
-
+import {doc, getDoc, getDocs } from 'firebase/firestore';
+import { db } from '../../utils/firebase';
 
 const ItemDetailContainer = () => {
 
@@ -10,13 +10,32 @@ const ItemDetailContainer = () => {
   const  {detalleId} = useParams();
 
   useEffect(()=>{
-    const getDataDetail = new Promise((resolve, reject) => {
-      setTimeout(() => {
-        resolve(dataList)
-      }, 2000);
-    });
-    getDataDetail.then(res => setDataDetail(res.find(producto => producto.title === detalleId)))
-  },[detalleId]);
+      const getDataDetail = async()=>{
+        //creamos la referencia
+        const queryRef = doc(db,"items",detalleId)
+        //se hace la solicitud a firebase
+      const response = await getDoc(queryRef);
+      const newItem ={
+        id:response.id,
+        ...response.data(),
+        
+      }
+      console.log(newItem);
+      setDataDetail(newItem)
+      }
+      getDataDetail();
+    },[detalleId]);
+
+
+
+  // useEffect(()=>{
+  //   const getDataDetail = new Promise((resolve, reject) => {
+  //     setTimeout(() => {
+  //       resolve(dataList)
+  //     }, 2000);
+  //   });
+  //   getDataDetail.then(res => setDataDetail(res.find(producto => producto.title === detalleId)))
+  // },[detalleId]);
 
 
 

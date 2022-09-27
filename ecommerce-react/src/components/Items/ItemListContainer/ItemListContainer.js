@@ -1,35 +1,40 @@
 import './ItemListContainer.css'
-import ItemCount from '../../ItemCount/ItemCount';
 import ItemList from '../ItemList/ItemList';
 import { useState, useEffect } from 'react'
-import dataList from '../../baseDatos/data';
 import { useParams } from 'react-router-dom';
-
+import {db} from '../../../utils/firebase' // importo mi base de datos de firebase
+import { collection, getDocs,where,query } from 'firebase/firestore';
 const ItemListContainer = () => { /*realizo la promesa */
 
   const {categoryId}= useParams();
   console.log('categoryId', categoryId)
-
   const [data, setData] = useState([]);
 
-
-  useEffect(() => {
-    const getData = new Promise((resolve, reject) => {
-      setTimeout(() => {
-        
-        resolve(dataList)
-      }, 2000);
-    });
-    getData.then(res => {
-      const newProducts = res.filter(item=>item.category === categoryId); // filtra todos los elementos del array que cumpla con cierta condicion//
-      setData(newProducts) // seteo estos valores que filtre//
-     })
-  }, [categoryId]); //lo coloco porque es mi parametro que va a estar cambiando, al estar cambiando mi funcion se va iniciar nuevamente
-
+  useEffect(()=>{
+    const queryRef = !categoryId ? collection(db,"items") : query(collection(db,"items"),where("category","==",categoryId));//anado mi filtro
+     
+      getDocs(queryRef).then(res=>{
+        const resultados = res.docs.map(doc=>{
+          const newItem ={
+            id:doc.id,
+            ...doc.data(),
+            
+          }
+          return newItem
+          
+        })
+        console.log(resultados)
+        setData(resultados)
+      })
+    }
+    //creamos la referencia de la coleccion
+    
+  ,[categoryId])
+  
   return (
     <div className="itemListContainer">
-      {/**/}
-      <div className='cardItems'>
+      
+      <div >
          <ItemList data={data} />
       </div>
       

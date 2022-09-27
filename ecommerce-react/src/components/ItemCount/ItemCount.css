@@ -1,16 +1,15 @@
 .counterContainer {
-    display: block;
-    padding: 5px;
+
+
+    margin-top: 0;
 }
 
 .counter {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+   
     width: 400px;
-
-    padding: 10px;
-    color: white;
+  
     
 }
 
@@ -26,18 +25,18 @@
 
 .itemCount {
     border: 2px solid white;
-    padding: 20px;
-    margin: 20px;
+   
+    width: 230px;
 }
 
-button {
+.buttonCount {
     background-color: rgb(73, 73, 73);
     border: solid 1px black;
     color: rgb(255, 255, 255);
     padding: 20px;
     width: 100%;
     border-radius: 10px;
-    margin-top: 20px;
+ 
     cursor: pointer;
 }
 
@@ -48,8 +47,7 @@ button:hover{
 
 .icon{
     margin: 20px;
-
-    color: rgb(255, 201, 190);
+    color: rgb(0, 0, 0);
     text-align: center;
 
 }

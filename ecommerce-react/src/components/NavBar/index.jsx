@@ -7,15 +7,15 @@ const NavBar = () => {
   return (
     <div className="nav_container">
       <div className="nav_menu">
-        <Link to='/home'> <img to='/home' className='logoNavBar' src={LogoWeb} alt="" /> </Link>
+        <Link to='/'> <img to='/home' className='logoNavBar' src={LogoWeb} alt="" /> </Link>
       </div>
 
       <div className="nav_menu">
         {/*<NavLink to='/productos' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"} > Catálogo </NavLink> proximo menu desplegable*/}
-        <NavLink to='/home' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Home </NavLink>
+        <NavLink to='/' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Home </NavLink>
         <NavLink to='/hoteles' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Hoteles </NavLink>
-        <NavLink to='/productos/landing-guitarras' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Promociones </NavLink>
-        <NavLink to='/productos/landing-bajos' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Beneficios </NavLink>
+        <NavLink to='/viajes/Cultura' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Cultura </NavLink>
+        <NavLink to='/viajes/Naturaleza' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Naturaleza </NavLink>
         <NavLink to='/galeria' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}  >
           Servicios
         </NavLink>

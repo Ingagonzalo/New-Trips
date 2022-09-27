@@ -1,55 +1,61 @@
 
-.cardItems{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+.containerItem .card{
+    width: 630px;
+    height: 700px;
 
-.item {
-    padding: 5px;
-
-    background-color: rgba(56, 56, 56,0.7);
-    display: flex;
-    width: 300px;
-    margin: 0px auto;
-    margin: 40px;
-    flex-direction: column;
-    align-content: center;
-
-
-}
-
-.card{
-    margin: auto 0;
-
-
-}
-
-.imageStock{
-    width: 250px;
+    overflow: hidden;
     margin: 20px;
-    height: 400px;
+    text-align: center;
+    transition: all 0.25s;
+    position: relative;
+    margin-bottom: 80px;
+    margin-top: 100px;
+    
+}
+
+
+
+.containerItem .card img{
+    width: 630px;
+    height: 420px;
+}
+
+.itemList{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    
 }
 
 .title{
-    font-size: 1.4rem;
+    display: flex;
+    align-content: flex-start;
+    text-transform: uppercase;
+}
 
+.description{
+    text-align: left;
+}
+
+.infoItem{
+color: black;
 }
 
 .price{
-
-
-
-    font-weight: bolder;
-    font-size: 20px;
-    background-color: gray;
-    margin: 0 auto;
-    width: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    border-radius: 3px;
+    color: #A4750D;
+    position: absolute;
+    bottom: 50px;
+    font-size: 1.4rem;
 }
 
-
+.botonItem{
+   
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   padding: 10px 30px;
+   border: 2px solid black;
+   text-transform: uppercase;
+}
