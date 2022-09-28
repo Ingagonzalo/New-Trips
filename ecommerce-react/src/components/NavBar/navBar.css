@@ -5,7 +5,7 @@
     background-color: rgba(48, 48, 48, 0.645);
     padding: 0 5%;
     margin: 0 auto;
-    position: absolute;
+    position: fixed;
     width: 90%; /*poruqe tengo que poner 90% y no 100% para que se vea bien*/
     height: 120px;
     z-index: 100;

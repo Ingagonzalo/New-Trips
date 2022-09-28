@@ -2,6 +2,9 @@ import LogoWeb from '../../assets/images/LogoTravel.png'
 import Counter from "../Counter/Counter";
 import {Link, NavLink} from "react-router-dom"
 
+
+
+
 const NavBar = () => {
   
   return (
@@ -23,6 +26,7 @@ const NavBar = () => {
 
 
       </div>
+
 
 
       <div className="nav_menu">

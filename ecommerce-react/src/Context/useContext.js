@@ -40,7 +40,7 @@ export const CartProvider = ({ children }) => { //2-creo un provedor
     const clearCart = () => {
         setProductCartList([]);
     }
-    const getTotalPrice = () => {
+    const TotalPrice = () => {
         const totalPrice = productCartList.reduce((acc, item) => acc + item.price, 0);
         console.log(totalPrice);
         return totalPrice;
@@ -50,7 +50,7 @@ export const CartProvider = ({ children }) => { //2-creo un provedor
         return totalProducts;
     }
     return (
-        <CartContext.Provider value={{ productCartList, addItem, removeItem, clearCart, isInCart, getTotalPrice, getTotalProducts }}>
+        <CartContext.Provider value={{ productCartList, addItem, removeItem, clearCart, isInCart, getTotalProducts, TotalPrice }}>
             {children}
         </CartContext.Provider>
     )

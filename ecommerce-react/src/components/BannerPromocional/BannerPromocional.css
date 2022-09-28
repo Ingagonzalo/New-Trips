@@ -1,26 +1,41 @@
 .containerImgPromo{
     width: 100%;
-
+    height: 50rem;
     margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    
 }
 
 
 .paisajeBanner{
-    width: 100%;
-    height: 50rem;
-    object-fit: cover;
-    
 
+    object-fit: cover;
+}
+
+.sesgoabajo{
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+  
+    border-width: 0 0 30vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #EEEEEE transparent;
+   
+   
 }
 
 .center {
     position: absolute;
+    z-index: 100;
     top: 40%;
     left: 35%;
     transform: translate(-50%, -50%);
-    font-size: 18px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     width: 40%;
     text-align: left;
-    color: rgb(224, 224, 224);
+    color: rgb(255, 255, 255);
   }
+
