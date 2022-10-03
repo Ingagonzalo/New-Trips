@@ -57,15 +57,16 @@ strong{
 }
 
 .cart{
-    margin-top:200px;
+    margin-top:150px;
    
 }
 
 .carritoVacio{
     position: relative;
-    top: 50%;
+
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 50%);
     margin-bottom: 300px;
+  
    
 }

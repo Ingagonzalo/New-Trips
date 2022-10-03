@@ -26,6 +26,7 @@
     justify-content: center;
     margin: auto;
     flex-wrap: wrap;
+    margin-top: 00px;
     
 }
 
@@ -58,4 +59,20 @@ color: black;
    padding: 10px 30px;
    border: 2px solid black;
    text-transform: uppercase;
+}
+
+
+@media (min-width: 700px) and  (max-width: 1366px){
+
+    .containerItem .card{
+        width: 430px;
+        height: 650px;
+            
+    }
+
+    .containerItem .card img{
+        width: 430px;
+        height: 320px;
+    }
+    
 }

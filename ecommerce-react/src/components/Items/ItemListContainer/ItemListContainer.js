@@ -33,7 +33,6 @@ const ItemListContainer = () => { /*realizo la promesa */
   
   return (
     <div className="itemListContainer">
-      
       <div >
          <ItemList data={data} />
       </div>

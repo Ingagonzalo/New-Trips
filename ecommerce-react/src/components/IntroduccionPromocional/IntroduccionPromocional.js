@@ -20,6 +20,7 @@ const IntroduccionPromocional = () => {
   Podrás ver animales salvajes sueltos, esquiar, escalar, sentir la fuerza de una cascada bañándote.
   </p>
        </div>
+       <div className='sesgoarriba'></div>
     </div>
   )
 }

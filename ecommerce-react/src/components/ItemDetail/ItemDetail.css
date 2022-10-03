@@ -24,7 +24,7 @@
     text-align: left;
     padding:  30px;
     margin-top: 300px;
-    background-color: #fff;
+    background-color: red;
     margin-bottom: 200px ;
 
 }
@@ -78,4 +78,27 @@
 .btnBlanco{
     background-color: #fff;
     color: black;
+}
+
+
+@media (min-width: 700px) and  (max-width: 1366px){
+    
+
+    .imageStockDetail{
+       
+        height: 500px;
+        width: 100%;
+
+    }
+    .itemDetail{
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+        text-align: left;
+        padding:  30px;
+        margin-top: 200px;
+        background-color: #ffff ;
+        margin-bottom: 200px ;
+    
+    }    
 }
