@@ -1,55 +1,53 @@
-.nav_container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #303030a4;
-    padding: 0 5%;
-    margin: 0 auto;
-    position: fixed;
-    width: 90%; /*poruqe tengo que poner 90% y no 100% para que se vea bien*/
-    height: 120px;
-    z-index: 100;
-    top: 0;
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #303030a4;
+  padding: 0 5%;
+  margin: 0 auto;
+  position: fixed;
+  width: 90%; /*poruqe tengo que poner 90% y no 100% para que se vea bien*/
+  height: 120px;
+  z-index: 100;
+  top: 0;
 }
 
-.nav_item{
-    margin: 10px;
-    color: #fff;
+.nav_item {
+  margin: 10px;
+  color: #fff;
 }
 
-.logo_navBar{
-    margin: 10px;
-    height: 40px;
+.logo_navBar {
+  margin: 10px;
+  height: 40px;
 }
 
-.nav_menu{
-    display: flex;
-    align-items: center;
+.nav_menu {
+  display: flex;
+  align-items: center;
 }
 
-
-.activa{
-    position: relative;
+.activa {
+  position: relative;
 }
-.activa::after{
-    content: "◆";
-position: absolute;
-    display: flex;
-    flex-direction: column;
-    left: 40%;
-    
+.activa::after {
+  content: "◆";
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 40%;
 }
 
-.inactiva{
-    color: #b1b1b1;
+.inactiva {
+  color: #b1b1b1;
 }
 
-.logoNavBar{
-    width: 100px;
-    margin: 10px;
+.logoNavBar {
+  width: 100px;
+  margin: 10px;
 }
 
-.prueba{
-    display: flex;
-    align-items: center;
+.prueba {
+  display: flex;
+  align-items: center;
 }

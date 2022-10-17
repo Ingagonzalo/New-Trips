@@ -7,12 +7,12 @@ import ItemListContainer from '../Items/ItemListContainer/ItemListContainer'
 const Home = () => {
   return (
     <>
-     <BannerPromocional/>
-    <IntroduccionPromocional />
-    <ItemListContainer/>
-    
+      <BannerPromocional />
+      <IntroduccionPromocional />
+      <ItemListContainer />
+
     </>
-   
+
   )
 }
 

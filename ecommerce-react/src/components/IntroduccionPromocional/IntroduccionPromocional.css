@@ -1,37 +1,37 @@
-.promo{
-    width: 100%;
-    padding-bottom: 280px;
-    position: relative;
-    background-color: #EEEEEE;
+.promo {
+  width: 100%;
+  padding-bottom: 280px;
+  position: relative;
+  background-color: #eeeeee;
 }
 
-.introPromo{
-    color: #1a161a;
-   }
-
-.tituloPromo{
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 2.8rem;
-    margin: 0;
+.introPromo {
+  color: #1a161a;
 }
 
-.subTituloPromo{
-    color:#977321 ;
-    margin: 0 0 50px 0;
+.tituloPromo {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2.8rem;
+  margin: 0;
 }
 
-.logoPromo{
-    width: 100px;
-    margin-bottom: 30px;
+.subTituloPromo {
+  color: #977321;
+  margin: 0 0 50px 0;
 }
 
-.sesgoarriba{
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    left: 0;
-    border-width: 0 98vw 30vh 0;
-    border-style: solid;
-    border-color: transparent transparent #ffff transparent;   
+.logoPromo {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.sesgoarriba {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  border-width: 0 98vw 30vh 0;
+  border-style: solid;
+  border-color: transparent transparent #ffff transparent;
 }

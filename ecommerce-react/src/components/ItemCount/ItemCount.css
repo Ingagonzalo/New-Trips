@@ -1,27 +1,24 @@
-.counter{
-    display: flex;
-
+.counter {
+  display: flex;
 }
 
-.addPerson{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.addPerson {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-
-.addPerson div{ 
-   text-align: center;
+.addPerson div {
+  text-align: center;
 }
 
-.buttonCount{
-    position: relative !important;
+.buttonCount {
+  position: relative !important;
 }
-.itemCountButton h4{
-    cursor: pointer;
-    font-size: 1.5rem;
+.itemCountButton h4 {
+  cursor: pointer;
+  font-size: 1.5rem;
 }
-.itemCountButton h4:hover{
-    color: #616161;
-
+.itemCountButton h4:hover {
+  color: #616161;
 }

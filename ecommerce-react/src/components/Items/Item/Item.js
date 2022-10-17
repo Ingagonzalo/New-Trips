@@ -2,7 +2,7 @@ import React from "react";
 import './Item.css';
 import { Link } from "react-router-dom";
 import '../../boton/Boton.css'
-const Item = ({ image, title, price, category, description, id }) => { 
+const Item = ({ image, title, price, category, description, id }) => {
   return (
     <div className="containerItem">
 

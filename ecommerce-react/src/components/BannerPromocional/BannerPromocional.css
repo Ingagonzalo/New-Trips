@@ -1,65 +1,56 @@
-.containerImgPromo{
-    width: 100%;
-    height: 60em;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    
+.containerImgPromo {
+  width: 100%;
+  height: 60em;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
 }
 
-
-.paisajeBanner{
-
-    object-fit: cover;
+.paisajeBanner {
+  object-fit: cover;
 }
 
-.sesgoabajo{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    border-width: 0 0 30vh 100vw;
-    border-style: solid;
-    border-color: transparent transparent #eeeeee transparent;
-   
-   
+.sesgoabajo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-width: 0 0 30vh 100vw;
+  border-style: solid;
+  border-color: transparent transparent #eeeeee transparent;
 }
 
 .center {
-    position: absolute;
-    z-index: 100;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    width: 40%;
-    text-align: left;
-    color: #eaeaea;
-  }
-
-
-.register{
-    position: absolute;
-    z-index: 100;
-    top: 37%;
-    right: 200px;
-    width: 20%;
-    color: #eaeaea;
-    text-transform: uppercase;
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  width: 40%;
+  text-align: left;
+  color: #eaeaea;
 }
 
+.register {
+  position: absolute;
+  z-index: 100;
+  top: 37%;
+  right: 200px;
+  width: 20%;
+  color: #eaeaea;
+  text-transform: uppercase;
+}
 
-.register button{
-    color: #eaeaea !important;
-    border: none !important;
-    position: relative;}
+.register button {
+  color: #eaeaea !important;
+  border: none !important;
+  position: relative;
+}
 
-@media (min-width: 700px) and  (max-width: 1366px){
-
-
-    .register {
-        font-size: 1rem;
-        top: 30%;
-    }
-
+@media (min-width: 700px) and (max-width: 1366px) {
+  .register {
+    font-size: 1rem;
+    top: 30%;
+  }
 }

@@ -1,189 +1,183 @@
-.itemEnCarrito{
-    text-align:center;
-    position: relative;
+.itemEnCarrito {
+  text-align: center;
+  position: relative;
 }
 
-.imageCarrito{
-    width: 100%;
-    height: 700px;
-    object-fit: cover;
-    z-index: -1;
-    top: 0;
-    left: 0;
+.imageCarrito {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  z-index: -1;
+  top: 0;
+  left: 0;
 }
 
-.datosCarrito{
-
-
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-bottom: 0;
+.datosCarrito {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 0;
 }
 
-.tituloCarrito{
-    font-size: 4rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #fff;
-    border-bottom: 4px solid #fff;
-    margin-bottom: 0;
-} 
+.tituloCarrito {
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  border-bottom: 4px solid #fff;
+  margin-bottom: 0;
+}
 
-.infoCarrito{
+.infoCarrito {
   background-color: #ffffff;
   height: 200px;
   margin: 20px;
   padding: 20px;
   border-radius: 0px 0px 20px 20px;
-    
 }
 
-.buttonCarrito button{
-    background-color: #977321;
-    padding: 20px;
-    border-radius: 20px;
-    color: #ffffff;
-    text-transform: uppercase;
-    margin-top: 20px;
-    font-weight: 700;
+.buttonCarrito button {
+  background-color: #977321;
+  padding: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-weight: 700;
 }
 
-strong{
-    color:#977321 ;
-    font-size: 1.2rem;
+strong {
+  color: #977321;
+  font-size: 1.2rem;
 }
 
-.cart{
-    margin-top:120px;
-   
+.cart {
+  margin-top: 120px;
 }
 
-.carritoVacio{
-    position: relative;
+.carritoVacio {
+  position: relative;
 
-    left: 50%;
-    transform: translate(-50%, 50%);
-    margin-bottom: 300px;
-  
-   
+  left: 50%;
+  transform: translate(-50%, 50%);
+  margin-bottom: 300px;
 }
-.botonesCart{
+.botonesCart {
   margin-bottom: 200px;
 }
-.clearCarrito{
+.clearCarrito {
   color: #e0dfe0 !important;
 }
-.buttonReserva{
-    position: relative !important;
-    font-size: 2rem !important;
-    margin-top: 50px;
-    border-bottom: none !important;
+.buttonReserva {
+  position: relative !important;
+  font-size: 2rem !important;
+  margin-top: 50px;
+  border-bottom: none !important;
 }
 
-#formulario{
-    display: none;
-    flex-direction: column;
-    width: 30%;
-    margin: 0 auto;
-    background-color: #eaeaea;
-    padding: 100px;
-    border-radius: 10px;
-    position: absolute;
-    top: 25%;
-    left: 30%;
+#formulario {
+  display: none;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+  background-color: #eaeaea;
+  padding: 100px;
+  border-radius: 10px;
+  position: absolute;
+  top: 25%;
+  left: 30%;
 }
 
-.formElement{
-    height: 50px;
-    
-    border-radius: 10px;
-    margin-bottom: 20px;
-    padding: 2px 10px;
-    caret-color: #977321;
+.formElement {
+  height: 50px;
+
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 2px 10px;
+  caret-color: #977321;
 }
 
- input:focus {
-    border-bottom: solid 2px #977321;
-  }
+input:focus {
+  border-bottom: solid 2px #977321;
+}
 
-.tituloForm{
-    font-size: 2rem;
-    text-transform: uppercase;
-    margin-bottom: 50px;
-    margin-top: 0;
+.tituloForm {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 
 .form__group {
-    position: relative;
-    padding: 15px 0 0;
-    margin-top: 10px;
-    width: 100%;
-  }
-  
-  .form__field {
-    font-family: inherit;
-    width: 100%;
-    border: 0;
-    border-bottom: 2px solid #9b9b9b;
-    outline: 0;
-    font-size: 1.3rem;
-    padding: 7px 0;
-    background: transparent;
-    transition: border-color 0.2s;
-  }
-  .form__field::placeholder {
-    color: transparent;
-  }
-  .form__field:placeholder-shown ~ .form__label {
-    font-size: 1.3rem;
-    cursor: text;
-    top: 20px;
-  }
-  
-  .form__label {
-    position: absolute;
-    top: 0;
-    display: block;
-    transition: 0.2s;
-    font-size: 1rem;
-    color: #9b9b9b;
-  }
-  
-  .form__field:focus {
-    padding-bottom: 6px;
-    font-weight: 700;
-    border-width: 3px;
-    border-image-slice: 1;
-  }
-  .form__field:focus ~ .form__label {
-    position: absolute;
-    top: 0;
-    display: block;
-    transition: 0.2s;
-    font-size: 1rem;
-    color: #977321;
-    font-weight: 700;
-  }
-  
-.cierreForm{
-    position: absolute;
-    color: #977321;
-    font-size: 2rem;
-    top: 20px;
-    right: 20px;
-    border: none;
-    background-color: #EAEAEA;
-    cursor: pointer;
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 100%;
 }
 
-.priceTotal{
-    font-size: 1.6rem;
-    margin-top: 40px;
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field::placeholder {
+  color: transparent;
+}
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
 }
 
-.ordenOk{
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image-slice: 1;
+}
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #977321;
+  font-weight: 700;
+}
+
+.cierreForm {
+  position: absolute;
+  color: #977321;
+  font-size: 2rem;
+  top: 20px;
+  right: 20px;
+  border: none;
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+
+.priceTotal {
+  font-size: 1.6rem;
+  margin-top: 40px;
+}
+
+.ordenOk {
   color: #e0dfe0;
   text-transform: uppercase;
   margin-top: 400px;
@@ -191,10 +185,10 @@ strong{
   font-size: 4rem;
 }
 
-.orden{
+.orden {
   margin-bottom: 150px;
 }
-.orden img{
+.orden img {
   position: absolute;
   top: 0;
   left: 0;
@@ -204,6 +198,6 @@ strong{
   z-index: -1;
 }
 
-.backOrden{
+.backOrden {
   color: #e0dfe0 !important;
 }

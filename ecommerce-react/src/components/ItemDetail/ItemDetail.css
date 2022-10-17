@@ -1,169 +1,142 @@
-
-
-.titleDetail{
-    color: rgb(18, 18, 18);
-    font-weight: bold;
-    text-transform: uppercase;
-    
+.titleDetail {
+  color: rgb(18, 18, 18);
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.priceDetail{
-    color: #977321;
+.priceDetail {
+  color: #977321;
 
-    bottom: 50px;
-    font-size: 1.4rem;
-
+  bottom: 50px;
+  font-size: 1.4rem;
 }
 
-.descriptionDetail{
-    color: #616161;
-
+.descriptionDetail {
+  color: #616161;
 }
 
-.itemDetail{
-    display: flex;
-   width: 100%;
+.itemDetail {
+  display: flex;
+  width: 100%;
   position: relative;
-  
-
 }
 
-
-
-.itemDetail div{
-    width: 100%;
+.itemDetail div {
+  width: 100%;
 }
 
-.itemDetail div img{
-    
-    
-    width: 100%;
-    height: 800px;
-    object-fit: cover;
+.itemDetail div img {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
 
-    z-index: -1;
- 
+  z-index: -1;
 }
 
-
-.cardDetail{
-    width: 500px !important;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    position: absolute;
-    background-color: #fff;
-    top: 300px;
-    left: 200px;
-    padding: 80px 50px;
-    text-align: left;
+.cardDetail {
+  width: 500px !important;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  background-color: #fff;
+  top: 300px;
+  left: 200px;
+  padding: 80px 50px;
+  text-align: left;
 }
-.OfertaDetail{
-    text-transform: uppercase;
-    color:#977321;
-    font-weight: bold;
-    
+.OfertaDetail {
+  text-transform: uppercase;
+  color: #977321;
+  font-weight: bold;
 }
 
-.botonItemDetail{
-
-    left: 0;
-    bottom: 0;
-    padding: 20px 30px;
-    text-transform: uppercase;
-    background-color: black;
-    color: #eaeaea;
-    margin: 20px;
-    width: 200px;
-    cursor: pointer;
-    transition: 0.2s ;
+.botonItemDetail {
+  left: 0;
+  bottom: 0;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  background-color: black;
+  color: #eaeaea;
+  margin: 20px;
+  width: 200px;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
-
-.botonItemDetail:hover{
-    background-color: #ffff;
-    border: 1px solid #1a161a;
-    color: #1a161a;
+.botonItemDetail:hover {
+  background-color: #ffff;
+  border: 1px solid #1a161a;
+  color: #1a161a;
 }
 
-.botonesDetail{
-    display: flex;
-    
+.botonesDetail {
+  display: flex;
 }
 
-.btnBlanco{
-    background-color: #fff;
-    color: #1a161a;
+.btnBlanco {
+  background-color: #fff;
+  color: #1a161a;
 }
 
-
-.infoLugar{
-    display: flex;
-    flex-direction: column;
-    background-color: #e0dfe0;
-    padding-top: 300px;
-    padding-bottom: 200px;
+.infoLugar {
+  display: flex;
+  flex-direction: column;
+  background-color: #e0dfe0;
+  padding-top: 300px;
+  padding-bottom: 200px;
 }
 
-.datosLugar{
-    display: flex;
-    margin-bottom: 100px !important;
-    margin-top: 100px !important;
+.datosLugar {
+  display: flex;
+  margin-bottom: 100px !important;
+  margin-top: 100px !important;
 }
 
-.imgInfo img{
-    width: 600px;
-    height: 400px;
-    object-fit: cover;
+.imgInfo img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
 }
 
 .titleLugar {
-    display: flex;
-    flex-direction: column;
-align-items: left;    
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
 }
 
-.datosLugar div h2{
-text-transform: uppercase;
-
+.datosLugar div h2 {
+  text-transform: uppercase;
 }
 
-.datosLugar div p{
-    width: 80%;
-
+.datosLugar div p {
+  width: 80%;
 }
 
 .textRight div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.textRight div p {
+  text-align: right;
+}
+
+@media (min-width: 700px) and (max-width: 1366px) {
+  .itemDetail {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end
 
+    margin: 0 auto;
+    text-align: left;
+    background-color: #ffff;
+  }
 
-}
-
-.textRight div p{
-    
-    text-align: right;
-}
-
-@media (min-width: 700px) and  (max-width: 1366px){
-    
-
-    .itemDetail{
-        display: flex;
-
-        margin: 0 auto;
-        text-align: left;
-        background-color: #ffff ;
-    
-    }    
-    
-    .imgInfo img{
-        width: 400px;
-        height: 400px;
-    }
-
+  .imgInfo img {
+    width: 400px;
+    height: 400px;
+  }
 }

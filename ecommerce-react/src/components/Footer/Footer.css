@@ -1,86 +1,72 @@
-.footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #1a161a;
-    padding: 50px;
-    padding-bottom: 0;
-    color: #eaeaea;
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1a161a;
+  padding: 50px;
+  padding-bottom: 0;
+  color: #eaeaea;
 }
 
-.footerSup{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 30px;
-    border-bottom: 2px solid #eaeaea;
+.footerSup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #eaeaea;
 }
 
-.datos ul{
-    display: flex;
+.datos ul {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.datos ul a {
+  color: #eaeaea;
+}
+
+.datos ul li a:hover {
+  color: #616161;
+}
+.datos ul li {
+  font-size: 2.5rem;
+}
+
+.logoFooter img {
+  width: 350px;
+}
+
+.datosUtiles {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 45%;
+  margin: 30px auto;
+}
+
+.datosUtiles div {
+  width: 200px;
+}
+
+.datosUtiles div i {
+  font-size: 1.5rem;
+}
+
+.copyright {
+  border-top: 2px solid #eaeaea;
+  margin: 0 auto;
+}
+
+@media (min-width: 700px) and (max-width: 1366px) {
+  .datos ul li {
+    font-size: 2rem;
+  }
+  .logoFooter img {
     width: 250px;
-    justify-content: space-between;
-    
-}
-
-.datos ul a{
-color: #eaeaea;
-    
-}
-
-.datos ul li a:hover{
-    color: #616161;
-}
-.datos ul li{
- 
-
-    font-size: 2.5rem;
-}
-
-.logoFooter img{
-    width: 350px;
-}
-
-
-.datosUtiles{
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    width: 45%;
-    margin: 30px auto;
-  
-    
-}
-
-.datosUtiles div{
-    width: 200px;
-}
-
-.datosUtiles div i{
+  }
+  .datosUtiles div i {
     font-size: 1.5rem;
-    
-}
-
-.copyright{
-    border-top: 2px solid #eaeaea;
-    margin: 0 auto;
-    
-}
-
-
-
-@media (min-width: 700px) and  (max-width: 1366px){
-
-    .datos ul li{
-         font-size: 2rem;
-    }
-    .logoFooter img{
-        width: 250px;
-    }       
-    .datosUtiles div i{
-        font-size: 1.5rem;
-        
-    }
-    
+  }
 }
