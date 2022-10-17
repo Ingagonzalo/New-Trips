@@ -14,12 +14,11 @@ const NavBar = () => {
       </div>
 
       <div className="nav_menu">
-        {/*<NavLink to='/productos' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"} > Catálogo </NavLink> proximo menu desplegable*/}
         <NavLink to='/' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Home </NavLink>
         <NavLink to='/hoteles' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Hoteles </NavLink>
         <NavLink to='/viajes/Cultura' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Cultura </NavLink>
         <NavLink to='/viajes/Naturaleza' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}> Naturaleza </NavLink>
-        <NavLink to='/galeria' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}  >
+        <NavLink to='/servicios' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}  >
           Servicios
         </NavLink>
         <NavLink to='/contacto' className={({isActive}) =>isActive ? "activa nav_item" : "inactiva nav_item"}>Contacto</NavLink>
@@ -30,8 +29,8 @@ const NavBar = () => {
 
 
       <div className="nav_menu">
-        <a href="" className="nav_item"><i class="fa-solid fa-magnifying-glass"></i></a>
-        <a href="" className="nav_item"><i class="fa-solid fa-user"></i></a>
+        <a href="" className="nav_item"><i className="fa-solid fa-magnifying-glass"></i></a>
+        <a href="" className="nav_item"><i className="fa-solid fa-user"></i></a>
         <Counter/>
       </div>
 

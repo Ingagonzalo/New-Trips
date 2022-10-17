@@ -9,13 +9,16 @@ import Footer from './components/Footer/Footer';
 import { CartProvider } from './Context/useContext';
 import Cart from './Context/Cart/Cart';
 import Home from './components/Home/Home';
-import ContactoPage from './components/ContactoPage';
-
-
+import Hoteles from './components/Hoteles/Hoteles';
+import Contacto from './components/Contacto/Contacto';
+import Servicios from './components/Servicios/Servicios';
 
 function App() {
+  
   return (
+    
 <CartProvider>
+
     <BrowserRouter>
           <div className='App'>
             <div>
@@ -27,8 +30,10 @@ function App() {
                 <Route path='/viajes/:categoryId' element={<ItemListContainer/>}></Route>
                 <Route path='/viajes/:categoryId/:detalleId' element={<ItemDetailContainer/>}> </Route>
                 <Route path='/cart' element={<Cart/>}></Route>
-                <Route path='/contacto' element={<ContactoPage/>}></Route>
-            
+                <Route path='/contacto' element={<Contacto/>}></Route>
+                <Route path='/servicios' element={<Servicios/>}></Route>
+                <Route path='/hoteles' element={<Hoteles/>}></Route>
+
               </Routes>
               <Footer/>
             </div>

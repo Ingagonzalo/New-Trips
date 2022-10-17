@@ -9,7 +9,7 @@ import { CartContext } from '../../Context/useContext';
 
 
 
-const ItemDetail = ({ dataDetail }) => { /*Exporto como se va a ver */
+const ItemDetail = ({ dataDetail }) => { 
   const [contador, setContador] = useState("0");
   const { addItem } = useContext(CartContext)
 
@@ -21,7 +21,8 @@ const ItemDetail = ({ dataDetail }) => { /*Exporto como se va a ver */
 
   return (
     
-    <div className="itemDetail">
+    <>
+      <div className="itemDetail">
       <div>
         <img className="imageStockDetail" src={dataDetail.image} alt="Guitarra" />
       </div>
@@ -34,15 +35,39 @@ const ItemDetail = ({ dataDetail }) => { /*Exporto como se va a ver */
         <ItemCount nameProduct={dataDetail.title} stock={10} initial={1} onAdd={onAdd} />
         <p>Cantidad: {contador}</p>
         <div className='botonesDetail'>
-          <Link to={`/cart`} >
+          <Link to={`/cart`}>
             <button className="botonItemDetail">Quiero Reservar</button>
           </Link>
-          <Link to={`/`} >
+          <Link to={`/`}>
             <button className="botonItemDetail btnBlanco">Ver más</button>
           </Link>
         </div>
       </div>
+
     </div>
+    <div className='infoLugar '>
+      <div className='container60 datosLugar'>
+       <div className='titleLugar'>
+        <h2>Experiencias Gastronomicas</h2>
+        <p>{dataDetail.comida}</p>
+        </div>
+       <div className='imgInfo'><img src={dataDetail.comidaImage} alt="" /></div>
+      </div>
+      <div className='container60 datosLugar textRight '>
+      
+       <div className='imgInfo'><img src={dataDetail.culturaImage} alt="" /></div>
+      <div className='titleLugar'>
+        <h2>Nuestra Cultura</h2>
+         <p>{dataDetail.cultura}</p></div>
+      </div>
+      <div className='container60 datosLugar '>
+      <div className='titleLugar'> 
+        <h2>Naturaleza y Aire libre</h2>
+        <p>{dataDetail.naturaleza}</p></div>
+       <div className='imgInfo'><img src={dataDetail.naturalezaImage} alt="" /></div>
+      </div>
+    </div>
+    </>
 
   );
 

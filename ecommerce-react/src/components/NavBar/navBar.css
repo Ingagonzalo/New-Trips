@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(48, 48, 48, 0.645);
+    background-color: #303030a4;
     padding: 0 5%;
     margin: 0 auto;
     position: fixed;
@@ -14,7 +14,7 @@
 
 .nav_item{
     margin: 10px;
-    color: white;
+    color: #fff;
 }
 
 .logo_navBar{
@@ -41,7 +41,7 @@ position: absolute;
 }
 
 .inactiva{
-    color: rgb(188, 188, 188);
+    color: #b1b1b1;
 }
 
 .logoNavBar{

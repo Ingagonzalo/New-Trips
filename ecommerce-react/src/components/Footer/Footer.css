@@ -1,57 +1,86 @@
-.footer_bottom {
-    /*contenedor del footer principal */
-    border-top: 2px solid #6e6e64;
-    border-bottom: 2px solid #6e6e64;
-    background-color: #272727;
+.footer{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
-    width: 100%; 
-    margin-top: 30px;
-    height: 250px;}
-  
-  .footer_bottom_redes ul {
-    /*propiedades del ul de las redes */
-    width: 100%;
+    justify-content: center;
+    background-color: #1a161a;
+    padding: 50px;
+    padding-bottom: 0;
+    color: #eaeaea;
+}
+
+.footerSup{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    color: #272727;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #eaeaea;
+}
 
-    padding: 0; }
+.datos ul{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    
+}
 
-    .footer_bottom_redes ul::marker{
-        color: red;
-    }
+.datos ul a{
+color: #eaeaea;
+    
+}
 
-  .footer_bottom_redes a {
-    padding: 40px;
-    font-size: 1.6rem;
-    color: #737373; }
-    .footer_bottom_redes a:hover {
-      color: white; }
-  
+.datos ul li a:hover{
+    color: #616161;
+}
+.datos ul li{
  
-  
-  .footer_bottom_logo img {
-    /*logo principal de las redes */
-    width: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px; }
-  
-  .footer_bottom_copyright {
-    /* propiedades de la informacion legal */
-    margin-bottom: 5px;
-    font-size: 1rem;
-    color: whitesmoke; }
-  
-  .footer_bottom_info a {
-    text-decoration: underline;
-    color: whitesmoke;
-    font-size: .8rem; }
-  
-  .footer_bottom_info:first-of-type {
-    padding-right: 5px;
-    border-right: 2px solid #737373; }
 
+    font-size: 2.5rem;
+}
+
+.logoFooter img{
+    width: 350px;
+}
+
+
+.datosUtiles{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 45%;
+    margin: 30px auto;
+  
+    
+}
+
+.datosUtiles div{
+    width: 200px;
+}
+
+.datosUtiles div i{
+    font-size: 1.5rem;
+    
+}
+
+.copyright{
+    border-top: 2px solid #eaeaea;
+    margin: 0 auto;
+    
+}
+
+
+
+@media (min-width: 700px) and  (max-width: 1366px){
+
+    .datos ul li{
+         font-size: 2rem;
+    }
+    .logoFooter img{
+        width: 250px;
+    }       
+    .datosUtiles div i{
+        font-size: 1.5rem;
+        
+    }
+    
+}

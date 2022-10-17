@@ -1,17 +1,13 @@
 .promo{
-
-    
     width: 100%;
     padding-bottom: 280px;
     position: relative;
     background-color: #EEEEEE;
 }
 
-
 .introPromo{
-    color: black;
-   
-}
+    color: #1a161a;
+   }
 
 .tituloPromo{
     text-transform: uppercase;
@@ -21,7 +17,7 @@
 }
 
 .subTituloPromo{
-    color:#CEA44D ;
+    color:#977321 ;
     margin: 0 0 50px 0;
 }
 
@@ -37,7 +33,5 @@
     left: 0;
     border-width: 0 98vw 30vh 0;
     border-style: solid;
-    border-color: transparent transparent white transparent;
-   
-   
+    border-color: transparent transparent #ffff transparent;   
 }

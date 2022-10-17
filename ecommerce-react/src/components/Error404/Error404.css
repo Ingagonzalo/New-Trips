@@ -1,0 +1,21 @@
+.imgError404 img{
+    margin-top: 200px;
+    width: 80vw;
+}
+
+.txtError404{
+    margin-bottom: 200px;
+}
+.txtError404 h2{
+    font-size: 2rem;
+}
+
+.h4Link{
+    color: #616161;
+    font-size: 1.5rem ;
+}
+
+.strongH4 {
+    font-size: 1.5rem ;
+
+}

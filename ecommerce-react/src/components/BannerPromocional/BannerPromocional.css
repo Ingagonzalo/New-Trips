@@ -19,7 +19,7 @@
     left: 0;
     border-width: 0 0 30vh 100vw;
     border-style: solid;
-    border-color: transparent transparent #EEEEEE transparent;
+    border-color: transparent transparent #eeeeee transparent;
    
    
 }
@@ -34,13 +34,32 @@
     text-transform: uppercase;
     width: 40%;
     text-align: left;
-    color: rgb(255, 255, 255);
+    color: #eaeaea;
   }
 
 
+.register{
+    position: absolute;
+    z-index: 100;
+    top: 37%;
+    right: 200px;
+    width: 20%;
+    color: #eaeaea;
+    text-transform: uppercase;
+}
+
+
+.register button{
+    color: #eaeaea !important;
+    border: none !important;
+    position: relative;}
+
 @media (min-width: 700px) and  (max-width: 1366px){
-    .containerImgPromo{
-        height: 40em;
-       
+
+
+    .register {
+        font-size: 1rem;
+        top: 30%;
     }
+
 }

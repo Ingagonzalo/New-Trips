@@ -1,78 +1,64 @@
-
-.containerItem .card{
-    width: 630px;
-    height: 700px;
-
-    overflow: hidden;
-    margin: 20px;
-    text-align: center;
-    transition: all 0.25s;
-    position: relative;
-    margin-bottom: 80px;
-    margin-top: 100px;
-    
+.containerItem .card {
+  width: 630px;
+  height: 750px;
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  position: relative;
+  margin-bottom: 100px;
+  margin-top: 80px;
 }
 
-
-
-.containerItem .card img{
-    width: 630px;
-    height: 420px;
+.containerItem .card img {
+  width: 630px;
+  height: 420px;
 }
 
-.itemList{
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    flex-wrap: wrap;
-    margin-top: 00px;
-    
+.itemList {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 100px;
 }
 
-.title{
-    display: flex;
-    align-content: flex-start;
-    text-transform: uppercase;
+.title {
+  display: flex;
+  align-content: flex-start;
+  text-transform: uppercase;
+  margin-top: 50px;
 }
 
-.description{
-    text-align: left;
+.description {
+  text-align: left;
+  margin-top: 10px;
 }
 
-.infoItem{
-color: black;
+.infoItem {
+  color: #1a161a;
 }
 
-.price{
-    color: #A4750D;
-    position: absolute;
-    bottom: 50px;
-    font-size: 1.4rem;
+.price {
+  color: #977321;
+  position: absolute;
+  bottom: 50px;
+  font-size: 1.4rem;
 }
 
-.botonItem{
-   
-   position: absolute;
-   left: 0;
-   bottom: 0;
-   padding: 10px 30px;
-   border: 2px solid black;
-   text-transform: uppercase;
-}
+@media (min-width: 700px) and (max-width: 1366px) {
+  .containerItem .card {
+    width: 430px;
+    height: 650px;
+  }
 
+  .containerItem .card img {
+    width: 430px;
+    height: 320px;
+  }
 
-@media (min-width: 700px) and  (max-width: 1366px){
-
-    .containerItem .card{
-        width: 430px;
-        height: 650px;
-            
-    }
-
-    .containerItem .card img{
-        width: 430px;
-        height: 320px;
-    }
-    
+  .price {
+    bottom: 30px !important;
+  }
 }

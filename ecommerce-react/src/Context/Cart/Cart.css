@@ -1,7 +1,6 @@
 .itemEnCarrito{
     text-align:center;
     position: relative;
-    margin-top: 100px;
 }
 
 .imageCarrito{
@@ -14,10 +13,10 @@
 }
 
 .datosCarrito{
-   
+
 
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-bottom: 0;
@@ -27,17 +26,17 @@
     font-size: 4rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: white;
-    border-bottom: 4px solid white;
+    color: #fff;
+    border-bottom: 4px solid #fff;
     margin-bottom: 0;
 } 
 
 .infoCarrito{
-    background-color: rgb(255, 255, 255);
-    height: 200px;
-   margin: 20px;
-   padding: 20px;
-   border-radius: 0px 0px 20px 20px;
+  background-color: #ffffff;
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 0px 0px 20px 20px;
     
 }
 
@@ -45,7 +44,7 @@
     background-color: #977321;
     padding: 20px;
     border-radius: 20px;
-    color: white;
+    color: #ffffff;
     text-transform: uppercase;
     margin-top: 20px;
     font-weight: 700;
@@ -57,7 +56,7 @@ strong{
 }
 
 .cart{
-    margin-top:150px;
+    margin-top:120px;
    
 }
 
@@ -69,4 +68,142 @@ strong{
     margin-bottom: 300px;
   
    
+}
+.botonesCart{
+  margin-bottom: 200px;
+}
+.clearCarrito{
+  color: #e0dfe0 !important;
+}
+.buttonReserva{
+    position: relative !important;
+    font-size: 2rem !important;
+    margin-top: 50px;
+    border-bottom: none !important;
+}
+
+#formulario{
+    display: none;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    background-color: #eaeaea;
+    padding: 100px;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+
+.formElement{
+    height: 50px;
+    
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 2px 10px;
+    caret-color: #977321;
+}
+
+ input:focus {
+    border-bottom: solid 2px #977321;
+  }
+
+.tituloForm{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  .form__field::placeholder {
+    color: transparent;
+  }
+  .form__field:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #9b9b9b;
+  }
+  
+  .form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image-slice: 1;
+  }
+  .form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #977321;
+    font-weight: 700;
+  }
+  
+.cierreForm{
+    position: absolute;
+    color: #977321;
+    font-size: 2rem;
+    top: 20px;
+    right: 20px;
+    border: none;
+    background-color: #EAEAEA;
+    cursor: pointer;
+}
+
+.priceTotal{
+    font-size: 1.6rem;
+    margin-top: 40px;
+}
+
+.ordenOk{
+  color: #e0dfe0;
+  text-transform: uppercase;
+  margin-top: 400px;
+  margin-bottom: 200px;
+  font-size: 4rem;
+}
+
+.orden{
+  margin-bottom: 150px;
+}
+.orden img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.backOrden{
+  color: #e0dfe0 !important;
 }

@@ -17,8 +17,14 @@ const BannerPromocional = () => {
 
       <h2>Permitete conectar con la cultura de los pueblos originarios que honran a la Pachamama, la diosa de la tierra.</h2>
       <p>Salta y sus majestuosos paisajes</p>
-     </div>  
+     </div>
+     <div className='register'>
+      <h2>Quieres disfrutar a pleno lo que tenemos para ti </h2>
+      <button className=' button type2'>Dinos como te llamas</button>
+
+      </div>  
     </div>
+
     
   )
 }

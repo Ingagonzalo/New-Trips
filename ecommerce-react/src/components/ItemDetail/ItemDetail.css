@@ -1,11 +1,14 @@
+
+
 .titleDetail{
     color: rgb(18, 18, 18);
     font-weight: bold;
     text-transform: uppercase;
+    
 }
 
 .priceDetail{
-    color: #A4750D;
+    color: #977321;
 
     bottom: 50px;
     font-size: 1.4rem;
@@ -13,46 +16,53 @@
 }
 
 .descriptionDetail{
-    color: #80807B;
+    color: #616161;
 
 }
 
 .itemDetail{
     display: flex;
-    width: 30%;
-    margin-left:20% ;
-    text-align: left;
-    padding:  30px;
-    margin-top: 300px;
-    background-color: red;
-    margin-bottom: 200px ;
+   width: 100%;
+  position: relative;
+  
 
 }
 
+
+
+.itemDetail div{
+    width: 100%;
+}
+
+.itemDetail div img{
+    
+    
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+
+    z-index: -1;
+ 
+}
+
+
 .cardDetail{
-    width: 80%;
+    width: 500px !important;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
-
-}
-
-.imageStockDetail{
-    object-fit: cover;
-    height: 700px;
-    width: 100%;
-    object-position: auto;
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+    background-color: #fff;
+    top: 300px;
+    left: 200px;
+    padding: 80px 50px;
+    text-align: left;
 }
-
 .OfertaDetail{
     text-transform: uppercase;
-    color:#CEA44D;
+    color:#977321;
     font-weight: bold;
     
 }
@@ -62,12 +72,20 @@
     left: 0;
     bottom: 0;
     padding: 20px 30px;
-    border: 2px solid black;
     text-transform: uppercase;
     background-color: black;
-    color: white;
+    color: #eaeaea;
     margin: 20px;
     width: 200px;
+    cursor: pointer;
+    transition: 0.2s ;
+}
+
+
+.botonItemDetail:hover{
+    background-color: #ffff;
+    border: 1px solid #1a161a;
+    color: #1a161a;
 }
 
 .botonesDetail{
@@ -77,28 +95,75 @@
 
 .btnBlanco{
     background-color: #fff;
-    color: black;
+    color: #1a161a;
 }
 
+
+.infoLugar{
+    display: flex;
+    flex-direction: column;
+    background-color: #e0dfe0;
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.datosLugar{
+    display: flex;
+    margin-bottom: 100px !important;
+    margin-top: 100px !important;
+}
+
+.imgInfo img{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.titleLugar {
+    display: flex;
+    flex-direction: column;
+align-items: left;    
+    text-align: left;
+}
+
+.datosLugar div h2{
+text-transform: uppercase;
+
+}
+
+.datosLugar div p{
+    width: 80%;
+
+}
+
+.textRight div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+
+
+}
+
+.textRight div p{
+    
+    text-align: right;
+}
 
 @media (min-width: 700px) and  (max-width: 1366px){
     
 
-    .imageStockDetail{
-       
-        height: 500px;
-        width: 100%;
-
-    }
     .itemDetail{
         display: flex;
-        width: 60%;
+
         margin: 0 auto;
         text-align: left;
-        padding:  30px;
-        margin-top: 200px;
         background-color: #ffff ;
-        margin-bottom: 200px ;
     
     }    
+    
+    .imgInfo img{
+        width: 400px;
+        height: 400px;
+    }
+
 }
