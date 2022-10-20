@@ -61,7 +61,7 @@ const ItemDetail = ({ dataDetail }) => {
         </div>
         <div className="container60 datosLugar textRight ">
           <div className="imgInfo">
-            <img src={dataDetail.culturaImage} alt="" />
+            <img src={dataDetail.culturaImage} alt="Cultura" />
           </div>
           <div className="titleLugar">
             <h2>Nuestra Cultura</h2>
@@ -74,7 +74,7 @@ const ItemDetail = ({ dataDetail }) => {
             <p>{dataDetail.naturaleza}</p>
           </div>
           <div className="imgInfo">
-            <img src={dataDetail.naturalezaImage} alt="" />
+            <img src={dataDetail.naturalezaImage} alt="Naturaleza" />
           </div>
         </div>
       </div>
