@@ -21,7 +21,7 @@ const ItemDetail = ({ dataDetail }) => {
           <img
             className="imageStockDetail"
             src={dataDetail.image}
-            alt="Guitarra"
+            alt="Error al cargar"
           />
         </div>
         <div className="cardDetail">
@@ -56,7 +56,7 @@ const ItemDetail = ({ dataDetail }) => {
             <p>{dataDetail.comida}</p>
           </div>
           <div className="imgInfo">
-            <img src={dataDetail.comidaImage} alt="" />
+            <img src={dataDetail.comidaImage} alt="Gastronomia" />
           </div>
         </div>
         <div className="container60 datosLugar textRight ">
