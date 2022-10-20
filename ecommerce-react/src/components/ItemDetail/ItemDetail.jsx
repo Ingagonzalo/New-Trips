@@ -21,7 +21,7 @@ const ItemDetail = ({ dataDetail }) => {
           <img
             className="imageStockDetail"
             src={dataDetail.image}
-            alt="Error al cargar"
+            alt={dataDetail.title}
           />
         </div>
         <div className="cardDetail">
