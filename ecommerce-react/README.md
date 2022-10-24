@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# New-Trips
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+es un e-commerce dedicado a la venta de paquetes de viajes por todo nuestro pais, contando con muestras de los puntos mas importantes, a tener en cuenta, a la hora de visitar estos lugares.
 
 ## Available Scripts
 
