@@ -2,17 +2,17 @@
 
 es un e-commerce dedicado a la venta de paquetes de viajes por todo nuestro pais, contando con muestras de los puntos mas importantes, a tener en cuenta, a la hora de visitar estos lugares.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+https://www.loom.com/share/25ca8a1225e041d1818dace4bb0c959d
 
-### `npm start`
+## `Instalacion`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para el correcto funcionamiento de este proyecto, se deberan realizar los siguientes pasos:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  git clone https://github.com/Ingagonzalo/New-Trips
+  npm install
+  npm start
 
 ### `npm test`
 
