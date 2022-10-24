@@ -10,8 +10,8 @@ https://www.loom.com/share/25ca8a1225e041d1818dace4bb0c959d
 
 Para el correcto funcionamiento de este proyecto, se deberan realizar los siguientes pasos:
 
-  git clone https://github.com/Ingagonzalo/New-Trips,
-  npm install,
+  git clone https://github.com/Ingagonzalo/New-Trips \
+  npm install \
   npm start
 
 ### `npm test`
